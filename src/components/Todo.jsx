@@ -8,8 +8,7 @@ const Todo = () => {
 
   const add = () => {
         const inputText = inputRef.current.value.trim();
-        //console.log(inputText);
-
+        
         if(inputText === ""){
             return null;
         }        
