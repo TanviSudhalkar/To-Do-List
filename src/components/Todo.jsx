@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import todo_icon from '../assets/todo_icon.png'
+import todo_icon from '../assets/icon1.png'
 import Todoitems from './Todoitems'
 
 const Todo = () => {
@@ -49,7 +49,7 @@ const Todo = () => {
         
         {/*---title---*/}
         <div className='flex items-center mt-7 gap-2'>
-            <img className='w-8' src={todo_icon} alt="todo_icon"></img>
+            <img className='w-7' src={todo_icon} alt="todo_icon"></img>
             <h1 className='text-3xl font-semibold'>To-Do List</h1>
         </div>
 
